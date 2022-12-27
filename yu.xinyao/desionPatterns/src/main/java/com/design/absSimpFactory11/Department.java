@@ -1,4 +1,4 @@
-package com.design.abstractFactory11;
+package com.design.absSimpFactory11;
 
 import lombok.Data;
 

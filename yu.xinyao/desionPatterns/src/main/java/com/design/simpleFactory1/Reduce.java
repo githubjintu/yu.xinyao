@@ -1,8 +1,8 @@
 package com.design.simpleFactory1;
 
-public class Add extends Operation  {
+public class Reduce extends Operation  {
     @Override
     public double getOperate() {
-        return super.getNumberA()+super.getNumberB();
+        return super.getNumberA() - super.getNumberB();
     }
 }

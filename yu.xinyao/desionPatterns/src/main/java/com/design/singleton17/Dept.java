@@ -1,4 +1,4 @@
-package com.design.singleton;
+package com.design.singleton17;
 
 import lombok.Data;
 

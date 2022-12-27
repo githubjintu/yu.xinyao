@@ -1,12 +1,14 @@
-package com.byd.design.simpleFactory1;
+package com.design.simpleFactory1;
 
-@
-public class Operation {
+import lombok.Data;
+
+@Data
+abstract class Operation {
     private String operate;
     private double numberA;
     private double numberB;
 
-    public String getOperate(double numberA,double numberB,String operate) {
-        return "";
+    public double getOperate() {
+        return 0d;
     }
 }

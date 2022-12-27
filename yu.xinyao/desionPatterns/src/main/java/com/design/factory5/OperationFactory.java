@@ -1,21 +1,5 @@
-package com.design.simpleFactory1;
+package com.design.factory5;
 
-public class OperationFactory {
-    public static Operation OperationFactory(String operate){
-        Operation operation = null;
-        switch (operate){
-            case "+":
-                operation = new Add();
-                break;
-            case "-":
-                operation = new Reduce();
-                break;
-            case "*":
-                operation = new Multiply();
-                break;
-            case "/":
-                operation = new Divide();
-        }
-        return operation;
-    }
+public interface OperationFactory {
+    Operation OperationFactory(String operate);
 }

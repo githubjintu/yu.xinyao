@@ -1,4 +1,4 @@
-package com.design.abstractFactory;
+package com.design.abstractFactory11;
 
 abstract class SqlAbstractUser {
     abstract void insert(User user);

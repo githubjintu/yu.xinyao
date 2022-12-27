@@ -1,14 +1,16 @@
 package com.design.Observer10;
 
-public class StockObServer extends Observer{
+public class NBAObServer {
     // 看股票同事类
     private String name;
-    private Secretary secretary;
-    public StockObServer(String name,Secretary secretary){
-        super(name,secretary);
+    private Inform inform;
+    public NBAObServer(String name, Inform inform){
+        //super(name,inform);
+        this.name = name;
+        this.inform = inform;
     }
-    public void update(){
-        System.out.println("请不要看股票，马上工作，"+name+","+
-                secretary.getMessage()+"!!!"+secretary.getName()+"特来通知");
-    }
+//    public void closeNBA(){
+//        System.out.println("请不要看NBA，马上工作，"+name+","+
+//                inform.getMessage()+"!!!"+inform.getName()+"特来通知");
+//    }
 }

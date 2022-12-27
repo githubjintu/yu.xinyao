@@ -1,4 +1,4 @@
-package com.design.abstractFactory;
+package com.design.abstractFactory11;
 
 public class OracleDepartment extends SqlAbstractDepartment{
 

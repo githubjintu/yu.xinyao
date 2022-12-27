@@ -1,4 +1,4 @@
-package com.design.simpleFactory1;
+package com.design.factory5;
 
 import lombok.Data;
 

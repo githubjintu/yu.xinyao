@@ -1,4 +1,4 @@
-package com.design.abstractFactory;
+package com.design.abstractFactory11;
 
 abstract class IFactory {
     abstract SqlAbstractUser getSql(String type);

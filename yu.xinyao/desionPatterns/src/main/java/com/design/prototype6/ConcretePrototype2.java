@@ -1,12 +1,12 @@
 package com.design.prototype6;
 
-public class ConcretePrototype1 extends Prototype{
-    public ConcretePrototype1(String id) {
+public class ConcretePrototype2 extends Prototype {
+
+    public ConcretePrototype2(String id) {
         super(id);
     }
-
     @Override
-    public Prototype clone() {
-        return null;
+    public Prototype clonePro() throws CloneNotSupportedException {
+        return (Prototype) super.clone();
     }
 }

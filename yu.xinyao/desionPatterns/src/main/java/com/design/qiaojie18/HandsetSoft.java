@@ -1,2 +1,5 @@
-package com.design.qiaojie18;public class HandsetSoft {
+package com.design.qiaojie18;
+
+abstract class HandsetSoft {
+    public abstract void run();
 }

@@ -1,2 +1,5 @@
-package com.design.stretegy2;public class CashSuper {
+package com.design.stretegy2;
+
+abstract class CashSuper {
+    public abstract double acceptCash(double money);
 }

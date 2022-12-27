@@ -1,7 +1,7 @@
 package com.design.component15;
 
-public class HRDepartment extends Company{
-    public HRDepartment(String name) {
+public class FinanceDepartment extends Company{
+    public FinanceDepartment(String name) {
         super(name);
     }
 
@@ -17,11 +17,11 @@ public class HRDepartment extends Company{
 
     @Override
     public void display(int depth) {
-        System.out.println(new String("-".getBytes(),depth)+super.getName());
+        System.out.println(depth+new String("-")+super.getName());
     }
 
     @Override
     public void lineOfDuty() {
-        System.out.println("员工培训管理："+super.getName()    );
+        System.out.println("公司收入支出："+super.getName());
     }
 }

@@ -1,10 +1,10 @@
 package com.design.appearance8;
 
-public class Stock1 {
-    public void sell(){
-        System.out.println("卖股票1");
+public class Stock2 {
+    public void sell2(){
+        System.out.println("卖股票2");
     }
-    public void buy1(){
-        System.out.println("买股票1");
+    public void buy2(){
+        System.out.println("买股票2");
     }
 }

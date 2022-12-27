@@ -1,8 +1,9 @@
 package com.design.stretegy2;
 
-public class CashDemo {
+public class CashDemo1 {
     public static void main(String[] args) {
-        double c = CashFactory.createCashAccept("满减", 300);
-        System.out.println(c);
+        CashContext cashContext = new CashContext("满减");
+        double result = cashContext.getResult(400);
+        System.out.println(result);
     }
 }

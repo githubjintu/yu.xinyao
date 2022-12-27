@@ -1,6 +1,6 @@
-package com.design.simpleFactory1;
+package com.design.factory5;
 
-public class Add extends Operation  {
+public class Add extends Operation {
     @Override
     public double getOperate() {
         return super.getNumberA()+super.getNumberB();
